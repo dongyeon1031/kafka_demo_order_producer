@@ -1,7 +1,7 @@
-package com.example.kafka_demo.controll;
+package com.example.kafka_demo_order.controll;
 
-import com.example.kafka_demo.model.OrderEvent;
-import com.example.kafka_demo.service.KafkaProducerService;
+import com.example.kafka_demo_order.model.OrderEvent;
+import com.example.kafka_demo_order.service.KafkaProducerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

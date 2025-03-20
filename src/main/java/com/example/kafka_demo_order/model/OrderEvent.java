@@ -1,4 +1,4 @@
-package com.example.kafka_demo.model;
+package com.example.kafka_demo_order.model;
 
 
 import lombok.AllArgsConstructor;

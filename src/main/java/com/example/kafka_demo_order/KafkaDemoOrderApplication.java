@@ -1,13 +1,13 @@
-package com.example.kafka_demo;
+package com.example.kafka_demo_order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaDemoApplication {
+public class KafkaDemoOrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaDemoApplication.class, args);
+        SpringApplication.run(KafkaDemoOrderApplication.class, args);
     }
 
 }

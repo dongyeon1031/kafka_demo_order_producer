@@ -1,7 +1,7 @@
-package com.example.kafka_demo.service;
+package com.example.kafka_demo_order.service;
 
 
-import com.example.kafka_demo.model.OrderEvent;
+import com.example.kafka_demo_order.model.OrderEvent;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
