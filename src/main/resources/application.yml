@@ -1,11 +1,13 @@
 
 server:
-  port: 8081
+  port: 8082
 
 spring:
   kafka:
     bootstrap-servers: localhost:9092
 #    bootstrap-servers: kafka:9092  # 도커 네트워크에서 실행용
+    properties:
+      schema.registry.url: http://localhost:8081
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
